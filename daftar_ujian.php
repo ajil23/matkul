@@ -8,10 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!----======== CSS ======== -->
-    <link rel="stylesheet" href="daftar-ujian.css">
-    <link rel="icon" sizes="180x180" href="asset/android-chrome-192x192.png">
-    <link rel="icon" sizes="32x32" href="asset/poliwangi 32x32.png">
-    <link rel="icon" sizes="16x16" href="asset/poliwangi 16x16.png">
+    <link rel="stylesheet" href="#">
 
 
     <!----===== Iconscout CSS ===== -->
@@ -35,11 +32,11 @@
 
         <div class="menu-items">
             <ul class="nav-links">
-                <li><a href="dash-admin.php">
+                <li><a href="#">
                         <i class="uil uil-estate"></i>
                         <span class="link-name">Dahsboard</span>
                     </a></li>
-                <li><a href="daftar.php">
+                <li><a href="#">
                         <i class="uil uil-file-edit-alt"></i>
                         <span class="link-name">Daftar</span>
                     </a></li>
@@ -110,42 +107,6 @@
                 echo "<meta http-equiv=refresh content=0.5;URL='daftar-ujian.php'>";
                 }
                 ?>
-
-                <div class="float">
-                    <a href='#' class='btn btn-success' data-toggle="modal" data-target="#exampleModalLong">Tambah data</a>
-                </div>
-                <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLongTitle">Masukkan Data</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <form>
-                                    <div class="form-group">
-                                        <div>
-                                            <label for="formGroupExampleInput2">Dosen Pembimbing</label>
-                                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Masukan Judul">
-                                        </div>
-
-                                        <div>
-                                            <label for="formGroupExampleInput2">Kelas</label>
-                                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Masukan Judul">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="formGroupExampleInput2">Jadwal</label>
-                                            <input type="date" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
-                                        </div>
-                                </form>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="submit" class="btn btn-primary">Simpan</button>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
